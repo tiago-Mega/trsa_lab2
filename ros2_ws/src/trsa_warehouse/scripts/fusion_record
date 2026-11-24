@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from trsa_warehouse.fusion_record import main
+if __name__ == "__main__":
+    main()

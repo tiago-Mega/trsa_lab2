@@ -1,0 +1,22 @@
+# ALL *_variance values are VARIANCES, not standard deviations.
+# These are teaching assumptions, not calibration measurements.
+sensor_adapter:
+  ros__parameters:
+    use_sim_time: true
+    profile: nominal  # launch SENSOR_PROFILE overrides: nominal|wheel_drift|imu_bias|custom
+    seed: 42
+    wheel_v_variance: 0.0004     # (m/s)^2; sigma = 0.02
+    wheel_vy_variance: 0.0001    # nonholonomic vy=0 pseudo-measurement
+    wheel_w_variance: 0.0004     # (rad/s)^2; sigma = 0.02
+    gyro_variance: 0.000009     # (rad/s)^2; sigma = 0.003
+    accel_variance: 0.01        # (m/s^2)^2; not fused by default
+    # Used unchanged by nominal/custom; presets override their error terms only.
+    wheel_v_stddev: 0.0
+    wheel_w_stddev: 0.0
+    wheel_scale: 1.0
+    wheel_yaw_bias: 0.0
+    gyro_stddev: 0.0
+    gyro_bias: 0.0
+# wheel_drift: +3% wheel speed, +0.03 rad/s moving yaw bias, white wheel noise.
+# imu_bias: +0.035 rad/s gyro bias (including at rest) and additional white noise.
+# These do not change contact physics. Standard EKF does not estimate sensor bias.

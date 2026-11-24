@@ -1,0 +1,76 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Fixed Frame: odom
+    Frame Rate: 20
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Ground grid
+      Enabled: true
+      Plane Cell Count: 60
+      Cell Size: 1
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot
+      Enabled: true
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        Depth: 1
+    - Class: rviz_default_plugins/LaserScan
+      Name: LiDAR
+      Enabled: true
+      Topic:
+        Value: /scan
+        Reliability Policy: Best Effort
+        Durability Policy: Volatile
+        Depth: 5
+      Size (m): 0.03
+      Style: Points
+    - Class: rviz_default_plugins/TF
+      Name: Frames
+      Enabled: false
+      Frame Timeout: 15
+    - Class: rviz_default_plugins/Odometry
+      Name: Wheel odometry
+      Enabled: true
+      Topic:
+        Value: /odom
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Depth: 5
+      Keep: 50
+    - Class: rviz_default_plugins/Map
+      Name: Map (after starting SLAM)
+      Enabled: false
+      Topic:
+        Value: /map
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+        Depth: 1
+    - Class: rviz_default_plugins/Path
+      Name: Student path
+      Enabled: true
+      Topic:
+        Value: /plan
+        Reliability Policy: Reliable
+        Durability Policy: Volatile
+        Depth: 1
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 12
+      Pitch: 0.75
+      Yaw: 0.8
+      Target Frame: base_footprint
+Window Geometry:
+  Width: 900
+  Height: 700

@@ -1,0 +1,11 @@
+source;share/trsa_warehouse/hook/cmake_prefix_path.ps1
+source;share/trsa_warehouse/hook/cmake_prefix_path.dsv
+source;share/trsa_warehouse/hook/cmake_prefix_path.sh
+source;share/trsa_warehouse/hook/pythonpath.ps1
+source;share/trsa_warehouse/hook/pythonpath.dsv
+source;share/trsa_warehouse/hook/pythonpath.sh
+source;share/trsa_warehouse/local_setup.bash
+source;share/trsa_warehouse/local_setup.dsv
+source;share/trsa_warehouse/local_setup.ps1
+source;share/trsa_warehouse/local_setup.sh
+source;share/trsa_warehouse/local_setup.zsh

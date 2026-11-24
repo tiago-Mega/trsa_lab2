@@ -1,0 +1,8 @@
+# Choose at least four poses in connected known free space in YOUR saved map.
+# This is not a supplied collision-free route. Fill coordinates before running.
+frame_id: map
+waypoints:
+  - {x: null, y: null, yaw: null}
+  - {x: null, y: null, yaw: null}
+  - {x: null, y: null, yaw: null}
+  - {x: null, y: null, yaw: null}

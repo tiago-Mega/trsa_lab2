@@ -1,0 +1,11 @@
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/uninstall.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/trsa_lab2_uninstall.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/ament_cmake_python_symlink_trsa_lab2.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/ament_cmake_python_build_trsa_lab2_egg.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/test.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/edit_cache.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/rebuild_cache.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/list_install_components.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/install.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/install/local.dir
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse/ament_cmake_core/trsa_warehouseConfig-version.cmake

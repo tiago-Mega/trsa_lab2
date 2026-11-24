@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from trsa_warehouse.diagnostics import main
+main()

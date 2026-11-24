@@ -1,0 +1,147 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+- Class: nav2_rviz_plugins/Navigation 2
+  Name: Navigation 2
+Visualization Manager:
+  Class: ''
+  Global Options:
+    Fixed Frame: map
+    Frame Rate: 15
+  Displays:
+  - Class: rviz_default_plugins/Grid
+    Name: Ground grid
+    Enabled: true
+    Plane Cell Count: 60
+    Cell Size: 1
+  - Class: rviz_default_plugins/RobotModel
+    Name: Robot
+    Enabled: true
+    Description Source: Topic
+    Description Topic:
+      Value: /robot_description
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+      Depth: 1
+  - Class: rviz_default_plugins/LaserScan
+    Name: LiDAR
+    Enabled: true
+    Topic:
+      Value: /scan
+      Reliability Policy: Best Effort
+      Durability Policy: Volatile
+      Depth: 5
+    Size (m): 0.03
+    Style: Points
+  - Class: rviz_default_plugins/TF
+    Name: Frames
+    Enabled: false
+    Frame Timeout: 15
+  - Class: rviz_default_plugins/Odometry
+    Name: Selected odometry
+    Enabled: true
+    Topic:
+      Value: /odom
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+      Depth: 5
+    Keep: 50
+  - Class: rviz_default_plugins/Map
+    Name: Map
+    Enabled: true
+    Topic:
+      Value: /map
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+      Depth: 1
+  - Class: rviz_default_plugins/Path
+    Name: Nav2 global path
+    Enabled: true
+    Topic:
+      Value: /plan
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+      Depth: 1
+  - Class: rviz_default_plugins/Path
+    Name: Wheel integrated path
+    Enabled: true
+    Line Style: Lines
+    Line Width: 0.03
+    Topic:
+      Value: /fusion/wheel_path
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+  - Class: rviz_default_plugins/Path
+    Name: EKF path
+    Enabled: true
+    Line Style: Lines
+    Line Width: 0.03
+    Topic:
+      Value: /fusion/ekf_path
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+  - Class: rviz_default_plugins/Path
+    Name: Nav2 local path
+    Enabled: true
+    Line Style: Lines
+    Line Width: 0.03
+    Topic:
+      Value: /local_plan
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+  - Class: rviz_default_plugins/Map
+    Name: Global costmap
+    Enabled: false
+    Alpha: 0.4
+    Color Scheme: costmap
+    Topic:
+      Value: /global_costmap/costmap
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+  - Class: rviz_default_plugins/Map
+    Name: Local costmap
+    Enabled: false
+    Alpha: 0.4
+    Color Scheme: costmap
+    Topic:
+      Value: /local_costmap/costmap
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Transient Local
+  - Class: rviz_default_plugins/Polygon
+    Name: Navigation footprint
+    Enabled: true
+    Topic:
+      Value: /local_costmap/published_footprint
+      Depth: 1
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+  Tools:
+  - Class: rviz_default_plugins/Interact
+  - Class: rviz_default_plugins/MoveCamera
+  - Class: rviz_default_plugins/Select
+  - Class: rviz_default_plugins/SetInitialPose
+    Topic:
+      Value: /initialpose
+      Depth: 5
+      Reliability Policy: Reliable
+      Durability Policy: Volatile
+    Covariance x: 0.25
+    Covariance y: 0.25
+    Covariance yaw: 0.0685
+  - Class: nav2_rviz_plugins/GoalTool
+  Views:
+    Current:
+      Class: rviz_default_plugins/TopDownOrtho
+      Angle: 0.0
+      Scale: 40.0
+      X: 0.0
+      Y: 0.0
+      Target Frame: map
+Window Geometry:
+  Width: 900
+  Height: 700

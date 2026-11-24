@@ -1,0 +1,4 @@
+source;share/trsa_warehouse/local_setup.bash
+source;share/trsa_warehouse/local_setup.dsv
+source;share/trsa_warehouse/local_setup.sh
+source;share/trsa_warehouse/local_setup.zsh

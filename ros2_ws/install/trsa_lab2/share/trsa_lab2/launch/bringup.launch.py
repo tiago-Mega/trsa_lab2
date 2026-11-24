@@ -1,0 +1,1 @@
+/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2/launch/bringup.launch.py

@@ -1,0 +1,632 @@
+{
+  "schema_version": 2,
+  "repository": "JdeRobot/RoboticsInfrastructure",
+  "commit": "2855323b2e33fcfc42fcd7c7bb63fedd5cdb2ebb",
+  "ros_package": "trsa_warehouse",
+  "worlds": [
+    "1",
+    "2"
+  ],
+  "robot": "holonomic",
+  "target_gazebo": "Harmonic (gz-sim 8)",
+  "model_sources": {
+    "aws_robomaker_warehouse_Bucket_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01",
+    "aws_robomaker_warehouse_ClutteringA_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01",
+    "aws_robomaker_warehouse_ClutteringC_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01",
+    "aws_robomaker_warehouse_ClutteringD_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01",
+    "aws_robomaker_warehouse_GroundB_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01",
+    "aws_robomaker_warehouse_PalletJackB_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01",
+    "aws_robomaker_warehouse_ShelfF_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01",
+    "aws_robomaker_warehouse_TrashCanC_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01",
+    "aws_robomaker_warehouse_WallB_01": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01",
+    "logistic_holonomic_robot": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot",
+    "rack": "CustomRobots/amazon_warehouse_harmonic/models/rack",
+    "rack_3shelves": "CustomRobots/amazon_warehouse_harmonic/models/rack_3shelves",
+    "rack_set3": "CustomRobots/amazon_warehouse_harmonic/models/rack_set3",
+    "rack_set6": "CustomRobots/amazon_warehouse_harmonic/models/rack_set6",
+    "warehouse_walls": "CustomRobots/amazon_warehouse_harmonic/models/warehouse_walls"
+  },
+  "changes": [
+    "Rebased custom_robots paths in models/logistic_holonomic_robot/logistic_holonomic_robot.urdf.xacro",
+    "Rebased custom_robots paths in models/logistic_holonomic_robot/logistic_holonomic_robot_common.urdf.xacro"
+  ],
+  "files": {
+    "licenses/RoboticsInfrastructure-LICENSE": {
+      "repository_path": "LICENSE",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "upstream_content_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "local_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "worlds/warehouse1.world": {
+      "repository_path": "Scenes/warehouse1.world",
+      "git_blob_sha1": "a3d53d44dcac50657f512c1cff4aeb4f510aa6e9",
+      "upstream_content_sha256": "877f843d1c1fd1daa4d66fd26ca0a8ade3c6a5f0af40066641e7b93afe09737e",
+      "bytes": 7346,
+      "local_sha256": "877f843d1c1fd1daa4d66fd26ca0a8ade3c6a5f0af40066641e7b93afe09737e"
+    },
+    "worlds/warehouse2.world": {
+      "repository_path": "Scenes/warehouse2.world",
+      "git_blob_sha1": "715740a3c5a741e71f7b6fc6d9e5a383495b1a99",
+      "upstream_content_sha256": "7d8174a024665e24a34295af6a1d5f4ae643fdc10c8283ed5cbeda6d4918a243",
+      "bytes": 3730,
+      "local_sha256": "7d8174a024665e24a34295af6a1d5f4ae643fdc10c8283ed5cbeda6d4918a243"
+    },
+    "models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png",
+      "git_blob_sha1": "2738cccd78dd41c4f764e02877ce97865a286eb4",
+      "upstream_content_sha256": "c79e8bfb9a0bea6a9824ffbb0411230945a52fcbb67074918e7af2d38070663a",
+      "bytes": 228606,
+      "local_sha256": "c79e8bfb9a0bea6a9824ffbb0411230945a52fcbb67074918e7af2d38070663a"
+    },
+    "models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.dae",
+      "git_blob_sha1": "c8146dee840b9332cb20b6696d93c38e1e9a5e07",
+      "upstream_content_sha256": "c619575cdd23ec8f42fb583317f619ff8b74f287dc7a46ebb5b9837e76d3c28b",
+      "bytes": 8723,
+      "local_sha256": "c619575cdd23ec8f42fb583317f619ff8b74f287dc7a46ebb5b9837e76d3c28b"
+    },
+    "models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.dae",
+      "git_blob_sha1": "ea897f9a718e119dc901759d467d5394b3c78fbf",
+      "upstream_content_sha256": "7858098a3102caee0e8c029ef93315784b2516fdc0e9c9cbffead6e1eb8c1fde",
+      "bytes": 27643,
+      "local_sha256": "7858098a3102caee0e8c029ef93315784b2516fdc0e9c9cbffead6e1eb8c1fde"
+    },
+    "models/aws_robomaker_warehouse_Bucket_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01/model.config",
+      "git_blob_sha1": "cba57304b23779abe396e919d043f477756b213b",
+      "upstream_content_sha256": "b2f98ce1ed7526c4d1d3a5025ab2ff17778a62accc7c84d5931cc62a1f8c9544",
+      "bytes": 262,
+      "local_sha256": "b2f98ce1ed7526c4d1d3a5025ab2ff17778a62accc7c84d5931cc62a1f8c9544"
+    },
+    "models/aws_robomaker_warehouse_Bucket_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_Bucket_01/model.sdf",
+      "git_blob_sha1": "fa78518e9f0183029f46b99c369379a4da74b16f",
+      "upstream_content_sha256": "62a68f487a92bd7ddc0367c6778d57ff0246a8b864d435a3b01a49f46aeb74b7",
+      "bytes": 1875,
+      "local_sha256": "62a68f487a92bd7ddc0367c6778d57ff0246a8b864d435a3b01a49f46aeb74b7"
+    },
+    "licenses/upstream/LICENSE": {
+      "repository_path": "LICENSE",
+      "git_blob_sha1": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "upstream_content_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "bytes": 35149,
+      "local_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png",
+      "git_blob_sha1": "2c607abeb52a946a3cb590431eca69c96109027d",
+      "upstream_content_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5",
+      "bytes": 30942,
+      "local_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png",
+      "git_blob_sha1": "7cde81609c184266334eceef46fb103f700de93a",
+      "upstream_content_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716",
+      "bytes": 26288,
+      "local_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png",
+      "git_blob_sha1": "747ab2a239a79b2a5b962ec232184622348512b5",
+      "upstream_content_sha256": "96244fecd9c27e9817efb0e264c948862ca5feb0d1ff86dabdde2fea07d3f57a",
+      "bytes": 20550,
+      "local_sha256": "96244fecd9c27e9817efb0e264c948862ca5feb0d1ff86dabdde2fea07d3f57a"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.dae",
+      "git_blob_sha1": "553d82bcf40b784e74cd2188393cd17681b29056",
+      "upstream_content_sha256": "f2e592215a2e3fef5161da3e0a53339f83c7ccc059a75bce6dfc52e23eafa024",
+      "bytes": 11934,
+      "local_sha256": "f2e592215a2e3fef5161da3e0a53339f83c7ccc059a75bce6dfc52e23eafa024"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.dae",
+      "git_blob_sha1": "7b071bd7d6ba12714149def732bfeee51940fb54",
+      "upstream_content_sha256": "ec2986064f9096f3744a953e7a6416d80c0e5b7a617ca04c62b39b51d48e5a4f",
+      "bytes": 63038,
+      "local_sha256": "ec2986064f9096f3744a953e7a6416d80c0e5b7a617ca04c62b39b51d48e5a4f"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/model.config",
+      "git_blob_sha1": "c3bf8614dbf12d5e8e53e5ef99404be161a397fe",
+      "upstream_content_sha256": "fbb0299646c69626661baca59503a266787ba09f4821029bd17a7c0e39c87506",
+      "bytes": 267,
+      "local_sha256": "fbb0299646c69626661baca59503a266787ba09f4821029bd17a7c0e39c87506"
+    },
+    "models/aws_robomaker_warehouse_ClutteringA_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf",
+      "git_blob_sha1": "95d15d320f0cdd0d9088618d465c82f72348979a",
+      "upstream_content_sha256": "346ec75827b8e8b4395e1771ae24694eaacdc1466db410fcd436d6610bfafd53",
+      "bytes": 1598,
+      "local_sha256": "346ec75827b8e8b4395e1771ae24694eaacdc1466db410fcd436d6610bfafd53"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png",
+      "git_blob_sha1": "2c607abeb52a946a3cb590431eca69c96109027d",
+      "upstream_content_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5",
+      "bytes": 30942,
+      "local_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png",
+      "git_blob_sha1": "7cde81609c184266334eceef46fb103f700de93a",
+      "upstream_content_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716",
+      "bytes": 26288,
+      "local_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.dae",
+      "git_blob_sha1": "4f4fd107d0f1580eb3e24f96c582adecc995d937",
+      "upstream_content_sha256": "17ea0446b4310bc2828ba9abe48a86bed674f410611c389ff60cd7ff199b2440",
+      "bytes": 5906,
+      "local_sha256": "17ea0446b4310bc2828ba9abe48a86bed674f410611c389ff60cd7ff199b2440"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.dae",
+      "git_blob_sha1": "3507fe5eea6a58bf836f9ec18c6222dadf5e64f3",
+      "upstream_content_sha256": "4bae9f788e8be60b1d44ba86af3cb6987f1ce53dee4975b229ad4b678850ed62",
+      "bytes": 66714,
+      "local_sha256": "4bae9f788e8be60b1d44ba86af3cb6987f1ce53dee4975b229ad4b678850ed62"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/model.config",
+      "git_blob_sha1": "b842e6c56ffea2a3dc827c5203ecf63e484f486b",
+      "upstream_content_sha256": "f59a13a8638c9c5772c4eeeb1a400b4856271d26af999a6c72a0a0d093ec523d",
+      "bytes": 267,
+      "local_sha256": "f59a13a8638c9c5772c4eeeb1a400b4856271d26af999a6c72a0a0d093ec523d"
+    },
+    "models/aws_robomaker_warehouse_ClutteringC_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf",
+      "git_blob_sha1": "4320177f52e4b795939de8a060729b0126a43b15",
+      "upstream_content_sha256": "f758589f0c43f8baa4fd7b6884cbed169586b39529c57f436650a9a9c4ad9de9",
+      "bytes": 1598,
+      "local_sha256": "f758589f0c43f8baa4fd7b6884cbed169586b39529c57f436650a9a9c4ad9de9"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png",
+      "git_blob_sha1": "2c607abeb52a946a3cb590431eca69c96109027d",
+      "upstream_content_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5",
+      "bytes": 30942,
+      "local_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png",
+      "git_blob_sha1": "7cde81609c184266334eceef46fb103f700de93a",
+      "upstream_content_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716",
+      "bytes": 26288,
+      "local_sha256": "8261a3a9cb72c518c11d3e10be4b10e356655c83e1affa91bad55e499c601716"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.dae",
+      "git_blob_sha1": "08d49558887d56d3e244de1051bd84fd7c808659",
+      "upstream_content_sha256": "602a9683515439e085c8af2f9e2dca905210c7daeff093f1d74a5175d57f6ee0",
+      "bytes": 5913,
+      "local_sha256": "602a9683515439e085c8af2f9e2dca905210c7daeff093f1d74a5175d57f6ee0"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.dae",
+      "git_blob_sha1": "5d51ad6257a4c409c311cf1bd49b43cddbd29bf0",
+      "upstream_content_sha256": "9746ca78e2157a365fba5120420210518cb95c46f704c1a27f93ea5f29f07885",
+      "bytes": 47500,
+      "local_sha256": "9746ca78e2157a365fba5120420210518cb95c46f704c1a27f93ea5f29f07885"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/model.config",
+      "git_blob_sha1": "870fdd204a7203a83898831052bd6717b0c1097d",
+      "upstream_content_sha256": "de435bfeb2b86c47d771c8c68f9d0c361c951455a190fcd8b29ce053cd36abae",
+      "bytes": 267,
+      "local_sha256": "de435bfeb2b86c47d771c8c68f9d0c361c951455a190fcd8b29ce053cd36abae"
+    },
+    "models/aws_robomaker_warehouse_ClutteringD_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf",
+      "git_blob_sha1": "f1498f59af97467509bfc53f226bfc74889636df",
+      "upstream_content_sha256": "ac000d77d7167b7ae46265b8da94686c7f5569c6f5cc0480c353aa4c3a334546",
+      "bytes": 1598,
+      "local_sha256": "ac000d77d7167b7ae46265b8da94686c7f5569c6f5cc0480c353aa4c3a334546"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png",
+      "git_blob_sha1": "79516967ebefb1cb19d3bf7c97dfa5120e7c7a5f",
+      "upstream_content_sha256": "e1494a293b0f13777301b7484be249585b7d0934e33cb384aba8bd304c81a776",
+      "bytes": 201430,
+      "local_sha256": "e1494a293b0f13777301b7484be249585b7d0934e33cb384aba8bd304c81a776"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png",
+      "git_blob_sha1": "dd34beb75b020c080ae55c99a9b7e6dce005c12f",
+      "upstream_content_sha256": "6d0a42358374a0c5d83d291cce0b96266719d3d01ba1321f0b7f2d88887c3d65",
+      "bytes": 22688,
+      "local_sha256": "6d0a42358374a0c5d83d291cce0b96266719d3d01ba1321f0b7f2d88887c3d65"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.dae",
+      "git_blob_sha1": "3d2c3d5a3021f4014abe779ee5ae2380ba054c31",
+      "upstream_content_sha256": "82482bea3e67f61b43dd385f83e9478142310a88f6c407cec550c523d547891d",
+      "bytes": 5847,
+      "local_sha256": "82482bea3e67f61b43dd385f83e9478142310a88f6c407cec550c523d547891d"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.dae",
+      "git_blob_sha1": "baf18d48e3ae3cf1c99a416d6334be7366aaedb4",
+      "upstream_content_sha256": "2549afc839ac9a74554894eff766a7b5265e99fdf6ac398580031a0494293020",
+      "bytes": 25430,
+      "local_sha256": "2549afc839ac9a74554894eff766a7b5265e99fdf6ac398580031a0494293020"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/model.config",
+      "git_blob_sha1": "ab216e81986f8413edef0434bd897c19d272804f",
+      "upstream_content_sha256": "f8617cf5cb7ddf5e3ee71e34763d5fc81271c0361f9f4b6b6bcdf80c57d28490",
+      "bytes": 263,
+      "local_sha256": "f8617cf5cb7ddf5e3ee71e34763d5fc81271c0361f9f4b6b6bcdf80c57d28490"
+    },
+    "models/aws_robomaker_warehouse_GroundB_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_GroundB_01/model.sdf",
+      "git_blob_sha1": "aa6bc3d043c161081dde2ea949dcc03e72fd3853",
+      "upstream_content_sha256": "412ffe1376a5c529ce41d9b131f398c53fdf5fca37f3d5e5c5db09db1b0a811b",
+      "bytes": 1269,
+      "local_sha256": "412ffe1376a5c529ce41d9b131f398c53fdf5fca37f3d5e5c5db09db1b0a811b"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png",
+      "git_blob_sha1": "55af29fa7ecc3c44ac202b815abe35c5d4ba0196",
+      "upstream_content_sha256": "54beb3e4a68984497e5558680e938bbe54e4c53a591399f43def5918b1c44be5",
+      "bytes": 36921,
+      "local_sha256": "54beb3e4a68984497e5558680e938bbe54e4c53a591399f43def5918b1c44be5"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png",
+      "git_blob_sha1": "393bcd9d824997a87822bdaf0b2acd9cf1d5acaa",
+      "upstream_content_sha256": "81918bb345701f1cf565f124809f520bdd17555a49dad0b0de48e89a45950b0f",
+      "bytes": 7769,
+      "local_sha256": "81918bb345701f1cf565f124809f520bdd17555a49dad0b0de48e89a45950b0f"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.dae",
+      "git_blob_sha1": "dc0c1a253aa7cbeb79d4185ac1546d17e83da28a",
+      "upstream_content_sha256": "ca7886559e76cad6700c37f726b2285abdaa7364265042a639ebc70c31b9993e",
+      "bytes": 125470,
+      "local_sha256": "ca7886559e76cad6700c37f726b2285abdaa7364265042a639ebc70c31b9993e"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.dae",
+      "git_blob_sha1": "75f548711c6b32144d56bd81c0224b4a1ce3304b",
+      "upstream_content_sha256": "93e117be76c6ef1a806cf68c625410b270efd39655cc1cdaba7b19a81b0cc16b",
+      "bytes": 534025,
+      "local_sha256": "93e117be76c6ef1a806cf68c625410b270efd39655cc1cdaba7b19a81b0cc16b"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/model.config",
+      "git_blob_sha1": "5838110c50cb5535c609e7c3f9f6ce4cad9ff2d2",
+      "upstream_content_sha256": "0225a1fdad90f36e340b84fa6ddcbb34aa6faf10aefee602f3b9f0c7e73348f7",
+      "bytes": 267,
+      "local_sha256": "0225a1fdad90f36e340b84fa6ddcbb34aa6faf10aefee602f3b9f0c7e73348f7"
+    },
+    "models/aws_robomaker_warehouse_PalletJackB_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf",
+      "git_blob_sha1": "7c915c773150567dd4e4d1cdd6ba198a6cc224e0",
+      "upstream_content_sha256": "0092e592300aafefe155a3d716abede7881c224410d97d89facb4eb98428fd01",
+      "bytes": 1287,
+      "local_sha256": "0092e592300aafefe155a3d716abede7881c224410d97d89facb4eb98428fd01"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png",
+      "git_blob_sha1": "558544df3efa71873053e986d747619f7a9cf8de",
+      "upstream_content_sha256": "cf9ec658613b8d64d1b03a262a5ea4d413729be7643b5513403f6e3201d6fccb",
+      "bytes": 15618,
+      "local_sha256": "cf9ec658613b8d64d1b03a262a5ea4d413729be7643b5513403f6e3201d6fccb"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png",
+      "git_blob_sha1": "2c607abeb52a946a3cb590431eca69c96109027d",
+      "upstream_content_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5",
+      "bytes": 30942,
+      "local_sha256": "632192ff372e08608df738becc8a42dd3ff91070885a6156cdab1975f36704e5"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png",
+      "git_blob_sha1": "2738cccd78dd41c4f764e02877ce97865a286eb4",
+      "upstream_content_sha256": "c79e8bfb9a0bea6a9824ffbb0411230945a52fcbb67074918e7af2d38070663a",
+      "bytes": 228606,
+      "local_sha256": "c79e8bfb9a0bea6a9824ffbb0411230945a52fcbb67074918e7af2d38070663a"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.dae",
+      "git_blob_sha1": "cc88e550940f4bf45c22a2dbe4877f5514bd7219",
+      "upstream_content_sha256": "2a1fb6e3429942f77d959aefdc608a6c0d9655759524e8921f8a4e9671660bb8",
+      "bytes": 20869,
+      "local_sha256": "2a1fb6e3429942f77d959aefdc608a6c0d9655759524e8921f8a4e9671660bb8"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.dae",
+      "git_blob_sha1": "065be925ea1e51f709e766a81917245555e7b716",
+      "upstream_content_sha256": "25a345fbe61e339a2180908095215ee76b527a6744bf14e9cdc8e5f8c08050be",
+      "bytes": 532566,
+      "local_sha256": "25a345fbe61e339a2180908095215ee76b527a6744bf14e9cdc8e5f8c08050be"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/model.config",
+      "git_blob_sha1": "adb8eddd3288d0fd508606579ca8a61094e93c43",
+      "upstream_content_sha256": "c68e9779f21091976048880996145b3a96f09f12c867834ec30470d7afc98982",
+      "bytes": 262,
+      "local_sha256": "c68e9779f21091976048880996145b3a96f09f12c867834ec30470d7afc98982"
+    },
+    "models/aws_robomaker_warehouse_ShelfF_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_ShelfF_01/model.sdf",
+      "git_blob_sha1": "5a9b6921ca22cc451c3f3642b1774d1e43eaad4f",
+      "upstream_content_sha256": "dfab1c16b054266db583fedfd1d762d8e5e89dd10b1cffac47134facaefeec0c",
+      "bytes": 1269,
+      "local_sha256": "dfab1c16b054266db583fedfd1d762d8e5e89dd10b1cffac47134facaefeec0c"
+    },
+    "models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png",
+      "git_blob_sha1": "9cf57c64697b8c3cdd16c82c68815aa2cf88d789",
+      "upstream_content_sha256": "06bed5167f1054fdc34ea1febe7b6a84d4c470319d52263935b2e8b147e8a21f",
+      "bytes": 25912,
+      "local_sha256": "06bed5167f1054fdc34ea1febe7b6a84d4c470319d52263935b2e8b147e8a21f"
+    },
+    "models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.dae",
+      "git_blob_sha1": "2bce35263f04e85ac1836a084687ae289315ae0b",
+      "upstream_content_sha256": "83741a96a3181a38c68cedd03a43c723275dfc448bffaaae8af8674d3572540e",
+      "bytes": 25282,
+      "local_sha256": "83741a96a3181a38c68cedd03a43c723275dfc448bffaaae8af8674d3572540e"
+    },
+    "models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.dae",
+      "git_blob_sha1": "4a1b7143e9c58f53f1d69fc29e5dfd3c0e8cdaf3",
+      "upstream_content_sha256": "dce8b10f7f2af74f33f340a6dc2087a41b97f9f92f254db0827c596bd23a3d35",
+      "bytes": 179169,
+      "local_sha256": "dce8b10f7f2af74f33f340a6dc2087a41b97f9f92f254db0827c596bd23a3d35"
+    },
+    "models/aws_robomaker_warehouse_TrashCanC_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01/model.config",
+      "git_blob_sha1": "28251bb8d442fd9f3703218d5800387173bba56b",
+      "upstream_content_sha256": "e5e1bf0f1a89c5b75781c53786e31514c127d868e858a798fb9626d7065369a9",
+      "bytes": 265,
+      "local_sha256": "e5e1bf0f1a89c5b75781c53786e31514c127d868e858a798fb9626d7065369a9"
+    },
+    "models/aws_robomaker_warehouse_TrashCanC_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf",
+      "git_blob_sha1": "8ca22a902e1108dc4cc80c4fe2fc7ca9f4a8917b",
+      "upstream_content_sha256": "ab8b71cd012c6bebb3146709ce1b5a9d020933676f5950a33747aa98f0e5efd5",
+      "bytes": 1277,
+      "local_sha256": "ab8b71cd012c6bebb3146709ce1b5a9d020933676f5950a33747aa98f0e5efd5"
+    },
+    "models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png",
+      "git_blob_sha1": "deb690605408bcf812aeae5e87f2184a5da9d435",
+      "upstream_content_sha256": "411a1b5655133276e8f68086d6668d7634c9f029b17ece10028fdc2de0fbc17d",
+      "bytes": 37510,
+      "local_sha256": "411a1b5655133276e8f68086d6668d7634c9f029b17ece10028fdc2de0fbc17d"
+    },
+    "models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.dae",
+      "git_blob_sha1": "eb18cdd3ed389a3bec430dd1e7369c694c01f17f",
+      "upstream_content_sha256": "25abc9a936e6c94075847eb15f689dde08c43807fff9f40ec471acfb80021280",
+      "bytes": 13127,
+      "local_sha256": "25abc9a936e6c94075847eb15f689dde08c43807fff9f40ec471acfb80021280"
+    },
+    "models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.dae": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.dae",
+      "git_blob_sha1": "9356888625e402ce62026343d48e2d74f758ae9e",
+      "upstream_content_sha256": "e2e098a7ea2cdc29d27e162ed9cd7c709195a5b007f35dce36785e5cdf389442",
+      "bytes": 12885,
+      "local_sha256": "e2e098a7ea2cdc29d27e162ed9cd7c709195a5b007f35dce36785e5cdf389442"
+    },
+    "models/aws_robomaker_warehouse_WallB_01/model.config": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01/model.config",
+      "git_blob_sha1": "ba404b68a7151aeb92a503f4b38e70bbd2c20f10",
+      "upstream_content_sha256": "037a10813e1b4d7e736604fee460583dba0e45d8cdb043c2e668cf253fca9f9f",
+      "bytes": 261,
+      "local_sha256": "037a10813e1b4d7e736604fee460583dba0e45d8cdb043c2e668cf253fca9f9f"
+    },
+    "models/aws_robomaker_warehouse_WallB_01/model.sdf": {
+      "repository_path": "CustomRobots/package_delivery/models/aws_robomaker_warehouse_WallB_01/model.sdf",
+      "git_blob_sha1": "30241c2f891ba30e2e9639c54688dcfa21b09c01",
+      "upstream_content_sha256": "3bf2d9e11bb49bcc73310382f5e55f800c47c42956677489632392a9156cf7be",
+      "bytes": 1272,
+      "local_sha256": "3bf2d9e11bb49bcc73310382f5e55f800c47c42956677489632392a9156cf7be"
+    },
+    "models/logistic_holonomic_robot/logistic_holonomic_robot.urdf.xacro": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/logistic_holonomic_robot.urdf.xacro",
+      "git_blob_sha1": "6c56234bae1b429361dd878886947b3ee17422c9",
+      "upstream_content_sha256": "3f687224b6ea4bd13823b33a19b97e8e7846a8ac04f3b1d467714e1763e632c1",
+      "bytes": 563,
+      "local_sha256": "d585aa894282597409cc13e93290be73847b86a0ba8626cb977249b60519d8b0"
+    },
+    "models/logistic_holonomic_robot/logistic_holonomic_robot_common.urdf.xacro": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/logistic_holonomic_robot_common.urdf.xacro",
+      "git_blob_sha1": "fd2e3f4340989f7754b1db7e918e59283d1a9d9d",
+      "upstream_content_sha256": "4319f322ed104b14cd8ceb9c29778ff619775bcc0670e87abc2cc9a6748d266e",
+      "bytes": 8744,
+      "local_sha256": "95d9f53fd30f09c173202705253b6e1b5890d7d342a92bfbc576fdbd433578f5"
+    },
+    "models/logistic_holonomic_robot/logistic_holonomic_robot_gz.urdf.xacro": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/logistic_holonomic_robot_gz.urdf.xacro",
+      "git_blob_sha1": "aa3dfeff4a80abbd5d07686debe91f3f4b2dbd21",
+      "upstream_content_sha256": "3a65fa4e80ad35e40e70bde12973d78bf779e2fb323ab5e615671ae9af182070",
+      "bytes": 1765,
+      "local_sha256": "3a65fa4e80ad35e40e70bde12973d78bf779e2fb323ab5e615671ae9af182070"
+    },
+    "models/logistic_holonomic_robot/meshes/cam.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/cam.dae",
+      "git_blob_sha1": "72ae1ff6b15be6321baa8cb8457cbf097450e0ad",
+      "upstream_content_sha256": "1d4866c59ce229924ecad79fcde5c725b46a41d62fbb7713612550e53869e041",
+      "bytes": 288629,
+      "local_sha256": "1d4866c59ce229924ecad79fcde5c725b46a41d62fbb7713612550e53869e041"
+    },
+    "models/logistic_holonomic_robot/meshes/fixed_support.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/fixed_support.dae",
+      "git_blob_sha1": "cad077634bff533831e7983fa6f42401258b2036",
+      "upstream_content_sha256": "d869cfe09b02b46fa22689a13f52b1be37295a4bfe277131925d92110f92f4e9",
+      "bytes": 5779,
+      "local_sha256": "d869cfe09b02b46fa22689a13f52b1be37295a4bfe277131925d92110f92f4e9"
+    },
+    "models/logistic_holonomic_robot/meshes/lds.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/lds.dae",
+      "git_blob_sha1": "4a8a2d050583b4038058a1086ef373c07d2ef5dd",
+      "upstream_content_sha256": "88f7e28ff8e6293fd3d1d735dcc12cec6602c3cb780564b4d03e71864f3bd2fe",
+      "bytes": 824872,
+      "local_sha256": "88f7e28ff8e6293fd3d1d735dcc12cec6602c3cb780564b4d03e71864f3bd2fe"
+    },
+    "models/logistic_holonomic_robot/meshes/lds.stl": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/lds.stl",
+      "git_blob_sha1": "80a5fe33563aaa73d1cae521e82d0699ad525f4a",
+      "upstream_content_sha256": "98f0bd7046159f83caab9509293112ef13534368535669124b91b5114c3132f6",
+      "bytes": 728384,
+      "local_sha256": "98f0bd7046159f83caab9509293112ef13534368535669124b91b5114c3132f6"
+    },
+    "models/logistic_holonomic_robot/meshes/left_tire.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/left_tire.dae",
+      "git_blob_sha1": "290062b7bfd1a546c158d530c23d52677a5ae69d",
+      "upstream_content_sha256": "cf830abb49fb67b35d5e8d69064dfebfb542119a59441a30379c21bb103b59ec",
+      "bytes": 1487759,
+      "local_sha256": "cf830abb49fb67b35d5e8d69064dfebfb542119a59441a30379c21bb103b59ec"
+    },
+    "models/logistic_holonomic_robot/meshes/left_tire.stl": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/left_tire.stl",
+      "git_blob_sha1": "76018ee6579ec37ca4ef527412c647a41d4922ce",
+      "upstream_content_sha256": "b2380bde4443dc690710fb8144b10a4a859b3692c064dadd852259f75e856758",
+      "bytes": 1083684,
+      "local_sha256": "b2380bde4443dc690710fb8144b10a4a859b3692c064dadd852259f75e856758"
+    },
+    "models/logistic_holonomic_robot/meshes/platform.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/platform.dae",
+      "git_blob_sha1": "4e8400422191bab5f3d5e8a9a30209a0d651ff2c",
+      "upstream_content_sha256": "a54aa4a1f68a36fbb52fbe19b69748a1ed285111d2b23a3a3f54deaec0e8ed29",
+      "bytes": 20765,
+      "local_sha256": "a54aa4a1f68a36fbb52fbe19b69748a1ed285111d2b23a3a3f54deaec0e8ed29"
+    },
+    "models/logistic_holonomic_robot/meshes/platform2.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/platform2.dae",
+      "git_blob_sha1": "c75dadafdf68b875b370d3b0bd5b64338880daa7",
+      "upstream_content_sha256": "4f8f48ff9c5c2cdcce42512812017639d67b97e05b0e041ffe6315366389e5ff",
+      "bytes": 24683,
+      "local_sha256": "4f8f48ff9c5c2cdcce42512812017639d67b97e05b0e041ffe6315366389e5ff"
+    },
+    "models/logistic_holonomic_robot/meshes/right_tire.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/right_tire.dae",
+      "git_blob_sha1": "8b4e5b62e30c7bede3899d5aeb4a47f841af9b72",
+      "upstream_content_sha256": "e432e727b047bd80e3957e7d1493c17968ef972c7c33122a7b37478d3c53515b",
+      "bytes": 1480689,
+      "local_sha256": "e432e727b047bd80e3957e7d1493c17968ef972c7c33122a7b37478d3c53515b"
+    },
+    "models/logistic_holonomic_robot/meshes/right_tire.stl": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/right_tire.stl",
+      "git_blob_sha1": "badca4311a5f6f8e7d3a6984d6f4494da263c772",
+      "upstream_content_sha256": "f13647d6ccb6ded08afa311b4d1efc873cd60be14f6b7ee968696db64910c151",
+      "bytes": 1083684,
+      "local_sha256": "f13647d6ccb6ded08afa311b4d1efc873cd60be14f6b7ee968696db64910c151"
+    },
+    "models/logistic_holonomic_robot/meshes/waffle_pi_base.dae": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/waffle_pi_base.dae",
+      "git_blob_sha1": "6e6d2535f7eb408fffcd720ea11dcf0bd487ae1f",
+      "upstream_content_sha256": "6e389869a8a4edac8b150157eef49379b7ab2b7ad2632cf8116530850522255a",
+      "bytes": 8674648,
+      "local_sha256": "6e389869a8a4edac8b150157eef49379b7ab2b7ad2632cf8116530850522255a"
+    },
+    "models/logistic_holonomic_robot/meshes/waffle_pi_base.stl": {
+      "repository_path": "CustomRobots/logistic_holonomic_robot/models/logistic_holonomic_robot/meshes/waffle_pi_base.stl",
+      "git_blob_sha1": "211b7e50eaaa20cf10c5770768664446c4ceba0d",
+      "upstream_content_sha256": "7d212a10c49e7a431b2f0ad50151d1ec96f3cfe3e579217cd6bb81de47716266",
+      "bytes": 7878884,
+      "local_sha256": "7d212a10c49e7a431b2f0ad50151d1ec96f3cfe3e579217cd6bb81de47716266"
+    },
+    "models/rack/meshes/rack.stl": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack/meshes/rack.stl",
+      "git_blob_sha1": "06ea7926b8775a517c5218ce35ffb6734320ed3f",
+      "upstream_content_sha256": "1f3843a990f6faef82d0a12ab8e3aeb1958dea3dde6104e3a8b12f9bda0382a1",
+      "bytes": 27884,
+      "local_sha256": "1f3843a990f6faef82d0a12ab8e3aeb1958dea3dde6104e3a8b12f9bda0382a1"
+    },
+    "models/rack/model.config": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack/model.config",
+      "git_blob_sha1": "6a4d600e6b646dbbdde747298cf5003280b7b66a",
+      "upstream_content_sha256": "381bdcbc03c6e3ecf0d2c0994336f2fe64490e456fc15eb78f04c8270e2b6028",
+      "bytes": 294,
+      "local_sha256": "381bdcbc03c6e3ecf0d2c0994336f2fe64490e456fc15eb78f04c8270e2b6028"
+    },
+    "models/rack/model.sdf": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack/model.sdf",
+      "git_blob_sha1": "0e3a8e700bc7d84473412f1fb5f37ca114c6de32",
+      "upstream_content_sha256": "c3ff69be748557458f9e3959beb7b11bd5b756c32dc2f23e50e502ebf089a182",
+      "bytes": 9761,
+      "local_sha256": "c3ff69be748557458f9e3959beb7b11bd5b756c32dc2f23e50e502ebf089a182"
+    },
+    "models/rack_3shelves/model.config": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_3shelves/model.config",
+      "git_blob_sha1": "64cda86cbc1f0d96cff03d7f78450c89b365b431",
+      "upstream_content_sha256": "16c4a1b2b03c64577314d6669b0291afc11a58e897f46769e12a913081c8c0df",
+      "bytes": 316,
+      "local_sha256": "16c4a1b2b03c64577314d6669b0291afc11a58e897f46769e12a913081c8c0df"
+    },
+    "models/rack_3shelves/model.sdf": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_3shelves/model.sdf",
+      "git_blob_sha1": "19f7ef5d5c57ca1f7cdde5873875b4e857aa7d28",
+      "upstream_content_sha256": "0ea39a4da4042946651981126f2abe3381d2c369bfc89794f83e244e469323ff",
+      "bytes": 9479,
+      "local_sha256": "0ea39a4da4042946651981126f2abe3381d2c369bfc89794f83e244e469323ff"
+    },
+    "models/rack_set3/model.config": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_set3/model.config",
+      "git_blob_sha1": "6de840343d42fa2afe182e5a99dc4ff30df4a5df",
+      "upstream_content_sha256": "1b8ae4568a9b55f8885c083ddab3e02287066d74319532b7d881c6d678cc5f27",
+      "bytes": 308,
+      "local_sha256": "1b8ae4568a9b55f8885c083ddab3e02287066d74319532b7d881c6d678cc5f27"
+    },
+    "models/rack_set3/model.sdf": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_set3/model.sdf",
+      "git_blob_sha1": "4c0720795328e7c49a55cea7857c06379991346e",
+      "upstream_content_sha256": "ab21e8b5659a15e3433dbf598c175a73e9b5e0528700f447acb82a907f6dda43",
+      "bytes": 495,
+      "local_sha256": "ab21e8b5659a15e3433dbf598c175a73e9b5e0528700f447acb82a907f6dda43"
+    },
+    "models/rack_set6/model.config": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_set6/model.config",
+      "git_blob_sha1": "7efd12b4e5fb19913acc20b719e0760466dc3023",
+      "upstream_content_sha256": "25ea40f0b8e3a2df142eeb67bdb6c3cfef0f61ceb2934b8448ea101a86249c1b",
+      "bytes": 308,
+      "local_sha256": "25ea40f0b8e3a2df142eeb67bdb6c3cfef0f61ceb2934b8448ea101a86249c1b"
+    },
+    "models/rack_set6/model.sdf": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/rack_set6/model.sdf",
+      "git_blob_sha1": "e3204a1e42e001235af693b363f4f9f8810cd125",
+      "upstream_content_sha256": "a0b18133aadfb2596c85d15532bf987519d6ab8390533db4aeacb1b7e36d0daa",
+      "bytes": 911,
+      "local_sha256": "a0b18133aadfb2596c85d15532bf987519d6ab8390533db4aeacb1b7e36d0daa"
+    },
+    "models/warehouse_walls/materials/scripts/grey_wall.material": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/warehouse_walls/materials/scripts/grey_wall.material",
+      "git_blob_sha1": "c5afbc4de27a4b7d9f4119a2703f3ba980bada30",
+      "upstream_content_sha256": "2bbe9e185e3ebfc8f9d097edf83c41b9dfa25e55e038d8562b17feee79f7874b",
+      "bytes": 193,
+      "local_sha256": "2bbe9e185e3ebfc8f9d097edf83c41b9dfa25e55e038d8562b17feee79f7874b"
+    },
+    "models/warehouse_walls/materials/textures/grey_wall.png": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/warehouse_walls/materials/textures/grey_wall.png",
+      "git_blob_sha1": "0b8c583b12ab01e890dcdf21867a8011abb6c9f6",
+      "upstream_content_sha256": "3458e09085a06755bae21df39e101b800581af7bd9903c2624fe6d9bb016506b",
+      "bytes": 615862,
+      "local_sha256": "3458e09085a06755bae21df39e101b800581af7bd9903c2624fe6d9bb016506b"
+    },
+    "models/warehouse_walls/model.config": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/warehouse_walls/model.config",
+      "git_blob_sha1": "7253f279ecfc938ad2e8aa38c10b066d784ce9f0",
+      "upstream_content_sha256": "7c10c3541af65fcdf178b086d74804aa6e24324bbae65107c18d6fbae883c05a",
+      "bytes": 439,
+      "local_sha256": "7c10c3541af65fcdf178b086d74804aa6e24324bbae65107c18d6fbae883c05a"
+    },
+    "models/warehouse_walls/model.sdf": {
+      "repository_path": "CustomRobots/amazon_warehouse_harmonic/models/warehouse_walls/model.sdf",
+      "git_blob_sha1": "c56cd8f0123089d0b423341559afb74cbd8ed5bb",
+      "upstream_content_sha256": "737a978bc09cfa997a965ee6101a1a5ab592ba1a116132844412aa584d6cc306",
+      "bytes": 11751,
+      "local_sha256": "737a978bc09cfa997a965ee6101a1a5ab592ba1a116132844412aa584d6cc306"
+    }
+  },
+  "total_asset_bytes": 27108614,
+  "runtime_tested": false
+}

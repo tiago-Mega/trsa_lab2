@@ -1,0 +1,96 @@
+#!/usr/bin/env python3
+"""Build-time resource/SDF check. Does not run simulation physics."""
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+from urllib.parse import unquote, urlparse
+from urllib.request import url2pathname
+import xml.etree.ElementTree as ET
+
+from trsa_warehouse.model import prepare_files, resource_environment
+
+
+def resolve_mesh_path(uri: str, share: Path) -> Path:
+    """Resolve the model's RViz mesh URI into an on-disk path for validation.
+
+    ``robot_description`` contains package:// URLs rather than bare absolute paths.
+    A filesystem Path('package://...') is never valid and would reject every
+    correct RViz-compatible mesh. Handle local package URIs, file URIs and
+    legacy absolute paths without hiding genuinely missing meshes.
+    """
+    if not uri:
+        raise ValueError('Empty URDF mesh filename')
+    parsed = urlparse(uri)
+    if parsed.scheme == 'package':
+        if parsed.netloc != 'trsa_warehouse':
+            raise ValueError('Unexpected mesh package: ' + parsed.netloc)
+        relative = Path(unquote(parsed.path).lstrip('/'))
+        if not relative.parts or '..' in relative.parts or relative.is_absolute():
+            raise ValueError('Invalid package-relative mesh path: ' + uri)
+        return share / relative
+    if parsed.scheme == 'file':
+        if parsed.netloc not in ('', 'localhost'):
+            raise ValueError('Unsupported file URI host: ' + parsed.netloc)
+        return Path(url2pathname(parsed.path))
+    if parsed.scheme:
+        raise ValueError('Unsupported mesh URI scheme: ' + parsed.scheme)
+    return Path(uri)
+
+
+def validate_package(share: Path) -> None:
+    """Validate both complete worlds with SDFormat's own resource search path."""
+    env = resource_environment(share)
+    print('SDFormat resource path: ' + env['SDF_PATH'], flush=True)
+    with tempfile.TemporaryDirectory(prefix='trsa-validate-') as temp:
+        for world in ('1', '2'):
+            urdf, sdf_file = prepare_files(share, world, output=Path(temp) / world)
+            root = ET.parse(sdf_file).getroot()
+            robot = root.find("world/model[@name='logistic_robot']")
+            if robot is None:
+                raise RuntimeError('Converted world is missing logistic_robot')
+            sensors = {s.get('type') for s in robot.findall('.//sensor')}
+            if not sensors >= {'gpu_lidar', 'imu'}:
+                raise RuntimeError('Robot sensors missing after URDF conversion: ' + str(sensors))
+            for mesh in ET.fromstring(urdf).findall('.//mesh'):
+                uri = mesh.get('filename', '')
+                path = resolve_mesh_path(uri, share)
+                if not path.is_file():
+                    raise RuntimeError(f'Missing robot mesh: {uri} -> {path}')
+            # Gazebo's SDF must retain the LiDAR visual exclusion masks even
+            # though RViz receives a separate, URI-compatible URDF.
+            from trsa_warehouse.model import ROBOT_VISIBILITY_FLAGS, LIDAR_VISIBILITY_MASK
+            visuals = robot.findall('.//link/visual')
+            lidars = robot.findall('.//sensor/lidar')
+            if not visuals or not lidars:
+                raise RuntimeError('Robot visuals or GPU LiDAR configuration missing')
+            for visual in visuals:
+                if visual.findtext('visibility_flags') != str(ROBOT_VISIBILITY_FLAGS):
+                    raise RuntimeError('Robot visual is not excluded from GPU LiDAR')
+            for lidar in lidars:
+                if lidar.findtext('visibility_mask') != str(LIDAR_VISIBILITY_MASK):
+                    raise RuntimeError('GPU LiDAR visibility mask is missing')
+            # GZ_SIM_RESOURCE_PATH alone is NOT sufficient for this command.
+            # Pass SDF_PATH explicitly to retain strict validation of every include.
+            subprocess.run(['gz', 'sdf', '-k', str(sdf_file)],
+                           check=True, timeout=90, env=env)
+            print('Validated warehouse', world,
+                  'URDF conversion, sensor retention, SDF parsing, and robot meshes',
+                  flush=True)
+
+
+def main() -> int:
+    from ament_index_python.packages import get_package_share_directory
+    share = Path(get_package_share_directory('trsa_warehouse'))
+    try:
+        validate_package(share)
+        subprocess.run(['ros2', 'run', 'trsa_warehouse', 'validate_navigation'], check=True, timeout=45)
+    except (OSError, RuntimeError, ValueError, ET.ParseError, subprocess.SubprocessError) as exc:
+        print('Model validation failed: ' + str(exc), file=sys.stderr)
+        print('The build has stopped; validation has not been bypassed.', file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == '__main__':
+    raise SystemExit(main())

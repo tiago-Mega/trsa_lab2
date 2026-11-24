@@ -1,0 +1,1 @@
+/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from trsa_warehouse.wheel_odom_interface import main
+if __name__ == "__main__":
+    main()

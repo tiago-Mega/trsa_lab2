@@ -1,0 +1,171 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (2.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse
+Built target ament_cmake_python_symlink_trsa_warehouse
+running egg_info
+creating trsa_warehouse.egg-info
+writing trsa_warehouse.egg-info/PKG-INFO
+writing dependency_links to trsa_warehouse.egg-info/dependency_links.txt
+writing top-level names to trsa_warehouse.egg-info/top_level.txt
+writing manifest file 'trsa_warehouse.egg-info/SOURCES.txt'
+reading manifest file 'trsa_warehouse.egg-info/SOURCES.txt'
+writing manifest file 'trsa_warehouse.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_trsa_warehouse_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/pythonpath.sh
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/pythonpath.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse-1.2.0-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse-1.2.0-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse-1.2.0-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse-1.2.0-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/__init__.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/diagnostics.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_evaluation.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_math.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_record.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/model.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/nav_check.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/navigation_config.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/sensor_adapter.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/wheel_odom_interface.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/launch/simulation.launch.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/config/bridge.yaml
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/config/gazebo.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/config/navigation.rviz
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/config/sensors.yaml
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/config/warehouse.rviz
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/licenses/RoboticsInfrastructure-LICENSE
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/licenses/upstream/LICENSE
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/manifest.json
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_Bucket_01/materials/textures/aws_robomaker_warehouse_Bucket_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_Bucket_01/meshes/aws_robomaker_warehouse_Bucket_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_Bucket_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_Bucket_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/materials/textures/aws_robomaker_warehouse_ClutteringA_03.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/meshes/aws_robomaker_warehouse_ClutteringA_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringA_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/materials/textures/aws_robomaker_warehouse_ClutteringC_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/meshes/aws_robomaker_warehouse_ClutteringC_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringC_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/materials/textures/aws_robomaker_warehouse_ClutteringD_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/meshes/aws_robomaker_warehouse_ClutteringD_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ClutteringD_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/materials/textures/aws_robomaker_warehouse_GroundB_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/meshes/aws_robomaker_warehouse_GroundB_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_GroundB_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/materials/textures/aws_robomaker_warehouse_PalletJackB_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/meshes/aws_robomaker_warehouse_PalletJackB_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_PalletJackB_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_02.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/materials/textures/aws_robomaker_warehouse_ShelfF_03.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/meshes/aws_robomaker_warehouse_ShelfF_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_ShelfF_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_TrashCanC_01/materials/textures/aws_robomaker_warehouse_TrashCanC_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_TrashCanC_01/meshes/aws_robomaker_warehouse_TrashCanC_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_TrashCanC_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_TrashCanC_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_WallB_01/materials/textures/aws_robomaker_warehouse_WallB_01.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_collision.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_WallB_01/meshes/aws_robomaker_warehouse_WallB_01_visual.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_WallB_01/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/aws_robomaker_warehouse_WallB_01/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/logistic_holonomic_robot.urdf.xacro
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/logistic_holonomic_robot_common.urdf.xacro
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/logistic_holonomic_robot_gz.urdf.xacro
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/cam.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/fixed_support.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/lds.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/lds.stl
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/left_tire.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/left_tire.stl
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/platform.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/platform2.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/right_tire.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/right_tire.stl
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/waffle_pi_base.dae
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/logistic_holonomic_robot/meshes/waffle_pi_base.stl
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack/meshes/rack.stl
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_3shelves/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_3shelves/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_set3/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_set3/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_set6/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/rack_set6/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/warehouse_walls/materials/scripts/grey_wall.material
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/warehouse_walls/materials/textures/grey_wall.png
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/warehouse_walls/model.config
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/models/warehouse_walls/model.sdf
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/worlds/warehouse1.world
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/assets/worlds/warehouse2.world
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/check
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/validate_model
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/sensor_adapter
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/wheel_odom_interface
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/nav_check
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/fusion_record
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/trsa_warehouse/validate_navigation
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/ament_index/resource_index/package_run_dependencies/trsa_warehouse
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/ament_index/resource_index/parent_prefix_path/trsa_warehouse
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/ament_prefix_path.sh
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/ament_prefix_path.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/path.sh
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/environment/path.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/local_setup.bash
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/local_setup.sh
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/local_setup.zsh
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/local_setup.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/ament_index/resource_index/packages/trsa_warehouse
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/cmake/trsa_warehouseConfig.cmake
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/cmake/trsa_warehouseConfig-version.cmake
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.xml
+Listing '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/__init__.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/diagnostics.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_evaluation.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_math.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/fusion_record.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/model.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/nav_check.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/navigation_config.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/sensor_adapter.py'...
+Compiling '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages/trsa_warehouse/wheel_odom_interface.py'...

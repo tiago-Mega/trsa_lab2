@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5fb56450f18e9e98b0ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "trsa_warehouse",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_trsa_warehouse_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_trsa_warehouse_egg-d573d8be8ebe66389f33.json",
+					"name" : "ament_cmake_python_build_trsa_warehouse_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_trsa_warehouse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_trsa_warehouse-814bdcb6f43ebeba138c.json",
+					"name" : "ament_cmake_python_symlink_trsa_warehouse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trsa_warehouse_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trsa_warehouse_uninstall-f7a3e2334bdd06e65ded.json",
+					"name" : "trsa_warehouse_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2cf8ab24c2506658040f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse",
+		"source" : "/home/tmega/trsa_lab2/ros2_ws/src/trsa_warehouse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
