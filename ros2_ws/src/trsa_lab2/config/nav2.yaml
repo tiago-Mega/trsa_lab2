@@ -1,5 +1,7 @@
+# Nav2 parameters for TRSA Lab 2
 # Refs: https://docs.nav2.org/jazzy/configuration_and_development/configuration_guide/
 #       https://github.com/ros-navigation/navigation2/tree/main/nav2_bringup
+
 bt_navigator:
   ros__parameters:
     use_sim_time: true

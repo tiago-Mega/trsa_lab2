@@ -2,7 +2,7 @@
 # This is not a supplied collision-free route. Fill coordinates before running.
 frame_id: map
 waypoints:
-  - {x: null, y: null, yaw: null}
-  - {x: null, y: null, yaw: null}
-  - {x: null, y: null, yaw: null}
-  - {x: null, y: null, yaw: null}
+  - {x: 1.70, y: 8.42, yaw: 1.48}
+  - {x: 5.00, y: 2.00, yaw: -0.22}
+  - {x: -2.70, y: -9.36, yaw: -0.26}
+  - {x: -3.46, y: 9.02, yaw: 1.50}
