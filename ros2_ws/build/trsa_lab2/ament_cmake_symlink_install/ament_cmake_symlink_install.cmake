@@ -327,6 +327,9 @@ ament_cmake_symlink_install_directory("/home/tmega/trsa_lab2/ros2_ws/src/trsa_la
 # install(DIRECTORY "/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2/trsa_lab2/" "DESTINATION" "lib/python3.12/site-packages/trsa_lab2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 ament_cmake_symlink_install_directory("/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2" DIRECTORY "/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2/trsa_lab2/" "DESTINATION" "lib/python3.12/site-packages/trsa_lab2" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
 
+# install(PROGRAMS "trsa_lab2/scripts/route_client" "DESTINATION" "lib/trsa_lab2")
+ament_cmake_symlink_install_programs("/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2" PROGRAMS "trsa_lab2/scripts/route_client" "DESTINATION" "lib/trsa_lab2")
+
 # install(DIRECTORY "launch" "config" "maps" "DESTINATION" "share/trsa_lab2")
 ament_cmake_symlink_install_directory("/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2" DIRECTORY "launch" "config" "maps" "DESTINATION" "share/trsa_lab2")
 

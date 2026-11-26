@@ -1,0 +1,201 @@
+[0.648s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.648s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b16780779b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b1678077710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b1678077710>>, mixin_verb=('build',))
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.850s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tmega/trsa_lab2/ros2_ws'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.934s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.935s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.936s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.937s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extensions ['colcon_pkg']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extension 'colcon_pkg'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extensions ['colcon_meta']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab2) by extension 'ros'
+[0.946s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trsa_lab2' with type 'ros.ament_cmake' and name 'trsa_lab2'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extension 'ignore'
+[0.947s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extension 'ignore_ament_install'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extensions ['colcon_pkg']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extension 'colcon_pkg'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extensions ['colcon_meta']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extension 'colcon_meta'
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extensions ['ros']
+[0.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_warehouse) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trsa_warehouse' with type 'ros.ament_cmake' and name 'trsa_warehouse'
+[0.950s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.020s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.030s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/tmega/trsa_lab2/ros2_ws/install
+[1.039s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/jazzy
+[1.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.244s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_args' from command line to 'None'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_target' from command line to 'None'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_clean_cache' from command line to 'False'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_clean_first' from command line to 'False'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'cmake_force_configure' from command line to 'False'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'ament_cmake_args' from command line to 'None'
+[1.245s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'catkin_cmake_args' from command line to 'None'
+[1.246s] Level 5:colcon.colcon_core.verb:set package 'trsa_warehouse' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.246s] DEBUG:colcon.colcon_core.verb:Building package 'trsa_warehouse' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse', 'merge_install': False, 'path': '/home/tmega/trsa_lab2/ros2_ws/src/trsa_warehouse', 'symlink_install': True, 'test_result_base': None}
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_args' from command line to 'None'
+[1.249s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_target' from command line to 'None'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_clean_first' from command line to 'False'
+[1.250s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'cmake_force_configure' from command line to 'False'
+[1.251s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'ament_cmake_args' from command line to 'None'
+[1.251s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.251s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.251s] DEBUG:colcon.colcon_core.verb:Building package 'trsa_lab2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2', 'merge_install': False, 'path': '/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2', 'symlink_install': True, 'test_result_base': None}
+[1.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.256s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tmega/trsa_lab2/ros2_ws/src/trsa_warehouse' with build type 'ament_cmake'
+[1.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tmega/trsa_lab2/ros2_ws/src/trsa_warehouse'
+[1.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse -- -j12 -l12
+[3.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse -- -j12 -l12
+[3.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse
+[3.775s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trsa_warehouse)
+[3.777s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/tmega/trsa_lab2/ros2_ws/build/trsa_warehouse
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse' for CMake module files
+[3.834s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse' for CMake config files
+[3.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_warehouse', 'cmake_prefix_path')
+[3.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.ps1'
+[3.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.dsv'
+[3.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.sh'
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib'
+[3.863s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/bin'
+[3.864s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/pkgconfig/trsa_warehouse.pc'
+[3.866s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages'
+[3.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_warehouse', 'pythonpath')
+[3.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.ps1'
+[3.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.dsv'
+[3.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.sh'
+[3.880s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/bin'
+[3.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.ps1'
+[3.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.dsv'
+[3.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.sh'
+[3.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.bash'
+[3.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.zsh'
+[3.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/colcon-core/packages/trsa_warehouse)
+[3.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trsa_warehouse)
+[3.933s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse' for CMake module files
+[3.936s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse' for CMake config files
+[3.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_warehouse', 'cmake_prefix_path')
+[3.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.ps1'
+[3.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.dsv'
+[3.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/cmake_prefix_path.sh'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib'
+[3.978s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/bin'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/pkgconfig/trsa_warehouse.pc'
+[3.979s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages'
+[3.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_warehouse', 'pythonpath')
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.ps1'
+[3.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.dsv'
+[3.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/hook/pythonpath.sh'
+[3.988s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/bin'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.ps1'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.sh'
+[4.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.bash'
+[4.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/trsa_warehouse/package.zsh'
+[4.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/share/colcon-core/packages/trsa_warehouse)
+[4.014s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2' with build type 'ament_cmake'
+[4.014s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2'
+[4.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.020s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2': CMAKE_PREFIX_PATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2 -- -j12 -l12
+[5.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2' returned '0': CMAKE_PREFIX_PATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2 -- -j12 -l12
+[5.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2': CMAKE_PREFIX_PATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2
+[5.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trsa_lab2)
+[5.808s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2' for CMake module files
+[5.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2' returned '1': CMAKE_PREFIX_PATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy PYTHONPATH=/home/tmega/trsa_lab2/ros2_ws/install/trsa_warehouse/lib/python3.12/site-packages:/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2
+[5.809s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2' for CMake config files
+[5.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_lab2', 'cmake_prefix_path')
+[5.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/cmake_prefix_path.ps1'
+[5.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/cmake_prefix_path.dsv'
+[5.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/cmake_prefix_path.sh'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/bin'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/pkgconfig/trsa_lab2.pc'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages'
+[5.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_lab2', 'pythonpath')
+[5.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/pythonpath.ps1'
+[5.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/pythonpath.dsv'
+[5.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/hook/pythonpath.sh'
+[5.816s] Level 1:colcon.colcon_core.environment:checking '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/bin'
+[5.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.ps1'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.dsv'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.sh'
+[5.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.bash'
+[5.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.zsh'
+[5.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/colcon-core/packages/trsa_lab2)
+[5.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.831s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.883s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.884s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.889s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[5.890s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmega/trsa_lab2/ros2_ws/install/local_setup.ps1'
+[5.892s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tmega/trsa_lab2/ros2_ws/install/_local_setup_util_ps1.py'
+[5.893s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmega/trsa_lab2/ros2_ws/install/setup.ps1'
+[5.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmega/trsa_lab2/ros2_ws/install/local_setup.sh'
+[5.896s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tmega/trsa_lab2/ros2_ws/install/_local_setup_util_sh.py'
+[5.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmega/trsa_lab2/ros2_ws/install/setup.sh'
+[5.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmega/trsa_lab2/ros2_ws/install/local_setup.bash'
+[5.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmega/trsa_lab2/ros2_ws/install/setup.bash'
+[5.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tmega/trsa_lab2/ros2_ws/install/local_setup.zsh'
+[5.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tmega/trsa_lab2/ros2_ws/install/setup.zsh'

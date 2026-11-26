@@ -1,0 +1,69 @@
+{
+  "route": "/home/tmega/trsa_lab2/data/route.yaml",
+  "success": true,
+  "records": [
+    {
+      "waypoint": {
+        "x": 1.7,
+        "y": 8.42,
+        "yaw": 1.48
+      },
+      "accepted": true,
+      "status": "SUCCEEDED",
+      "success": true,
+      "error_code": 0,
+      "reason": "",
+      "duration_s": 60.56685254100012,
+      "recoveries": 0
+    },
+    {
+      "waypoint": {
+        "x": 5.0,
+        "y": 2.0,
+        "yaw": -0.22
+      },
+      "accepted": true,
+      "status": "SUCCEEDED",
+      "success": true,
+      "error_code": 0,
+      "reason": "",
+      "duration_s": 67.73473979000119,
+      "recoveries": 0
+    },
+    {
+      "waypoint": {
+        "x": -2.7,
+        "y": -9.36,
+        "yaw": -0.26
+      },
+      "accepted": true,
+      "status": "SUCCEEDED",
+      "success": true,
+      "error_code": 0,
+      "reason": "",
+      "duration_s": 114.04370212499998,
+      "recoveries": 0
+    },
+    {
+      "waypoint": {
+        "x": -3.46,
+        "y": 9.02,
+        "yaw": 1.5
+      },
+      "accepted": true,
+      "status": "SUCCEEDED",
+      "success": true,
+      "error_code": 0,
+      "reason": "",
+      "duration_s": 128.04080726400025,
+      "recoveries": 0
+    }
+  ],
+  "safety": {
+    "cancel_ack": false,
+    "terminal_status": null,
+    "zero_published": true,
+    "stopped": false,
+    "max_speed_after": 0.1578947368441182
+  }
+}

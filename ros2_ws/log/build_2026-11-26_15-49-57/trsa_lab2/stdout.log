@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2
+Built target ament_cmake_python_symlink_trsa_lab2
+running egg_info
+writing trsa_lab2.egg-info/PKG-INFO
+writing dependency_links to trsa_lab2.egg-info/dependency_links.txt
+writing top-level names to trsa_lab2.egg-info/top_level.txt
+reading manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+writing manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_trsa_lab2_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/__init__.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/route_client.py
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/scripts/route_client

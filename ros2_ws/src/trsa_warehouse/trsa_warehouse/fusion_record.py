@@ -48,7 +48,7 @@ def main():
     args,rosargs=parser.parse_known_args()
     if not all(math.isfinite(x) and x>0 for x in (args.duration,args.wall_timeout)):
         parser.error('Durations must be positive and finite')
-    prefix=args.output or Path('/workspaces/student_ws/data/fusion')/time.strftime('run_%Y%m%d_%H%M%S')
+    prefix=args.output or Path('/home/tmega/trsa_lab2/data/fusion')/time.strftime('run_%Y%m%d_%H%M%S')
     paths={key:Path(str(prefix)+suffix) for key,suffix in [('raw','_samples.csv'),('errors','_errors.csv'),('summary','_summary.json')]}
     if any(p.exists() for p in paths.values()):parser.error('Output already exists; use a new prefix')
     prefix.parent.mkdir(parents=True,exist_ok=True)

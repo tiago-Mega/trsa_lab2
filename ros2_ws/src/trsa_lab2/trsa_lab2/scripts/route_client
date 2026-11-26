@@ -1,0 +1,3 @@
+#!/usr/bin/env python3
+from trsa_lab2.route_client import main
+main()

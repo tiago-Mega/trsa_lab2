@@ -1,0 +1,27 @@
+Built target ament_cmake_python_symlink_trsa_lab2
+running egg_info
+writing trsa_lab2.egg-info/PKG-INFO
+writing dependency_links to trsa_lab2.egg-info/dependency_links.txt
+writing top-level names to trsa_lab2.egg-info/top_level.txt
+reading manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+writing manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_trsa_lab2_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/__init__.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/route_client.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/scripts/route_client
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:209 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/tmega/trsa_lab2/ros2_ws/src/trsa_lab2/scripts/route_client'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:331 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:46 (include)
+
+[0m

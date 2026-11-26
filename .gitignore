@@ -1,0 +1,13 @@
+# ROS 2 build output
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Bag data files (large); keep metadata.yaml so the bag stays described
+*.mcap
+*.db3
+
+# Python / editor
+__pycache__/
+*.pyc
+.vscode/

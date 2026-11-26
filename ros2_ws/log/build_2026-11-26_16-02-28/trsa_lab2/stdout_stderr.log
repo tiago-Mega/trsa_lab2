@@ -1,0 +1,52 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tmega/trsa_lab2/ros2_ws/build/trsa_lab2
+Built target ament_cmake_python_symlink_trsa_lab2
+running egg_info
+writing trsa_lab2.egg-info/PKG-INFO
+writing dependency_links to trsa_lab2.egg-info/dependency_links.txt
+writing top-level names to trsa_lab2.egg-info/top_level.txt
+reading manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+writing manifest file 'trsa_lab2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_trsa_lab2_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2-2026.6.0-py3.12.egg-info/top_level.txt
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/__init__.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/route_client.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/scripts/route_client
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/trsa_lab2/route_client
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/launch/bringup.launch.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/launch/fusion.launch.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/launch/localization.launch.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/launch/mapping.launch.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/launch/navigation.launch.py
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/config/amcl.yaml
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/config/ekf.yaml
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/config/nav2.yaml
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/config/slam.yaml
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/maps/route_template.yaml
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/ament_index/resource_index/package_run_dependencies/trsa_lab2
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/ament_index/resource_index/parent_prefix_path/trsa_lab2
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/path.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/environment/path.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/local_setup.bash
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/local_setup.sh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/local_setup.zsh
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/local_setup.dsv
+-- Symlinking: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.dsv
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/ament_index/resource_index/packages/trsa_lab2
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/cmake/trsa_lab2Config.cmake
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/cmake/trsa_lab2Config-version.cmake
+-- Up-to-date symlink: /home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/share/trsa_lab2/package.xml
+Listing '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2'...
+Listing '/home/tmega/trsa_lab2/ros2_ws/install/trsa_lab2/lib/python3.12/site-packages/trsa_lab2/scripts'...
