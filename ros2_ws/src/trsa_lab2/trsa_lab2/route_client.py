@@ -5,19 +5,20 @@ The ROS 2 executable is scripts/route_client; this Python module defines the
 node it starts. Students implement the four methods marked TODO below.
 No external route_support.py is required.
 """
-import argparse
 import json
 import math
 import time
-from pathlib import Path
-
-import rclpy
-from rclpy.action import ActionClient
-from rclpy.node import Node
-from rclpy.parameter import Parameter
-from nav2_msgs.action import NavigateToPose
-from geometry_msgs.msg import Twist
 import yaml
+import rclpy
+import argparse
+
+from pathlib import Path
+from rclpy.node import Node
+from rclpy.action import ActionClient
+from rclpy.parameter import Parameter
+
+from geometry_msgs.msg import Twist
+from nav2_msgs.action import NavigateToPose
 
 
 class StudentRoute(Node):
