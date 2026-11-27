@@ -1,0 +1,48 @@
+{
+  "paired_samples": 1505,
+  "sim_duration_s": 30.08,
+  "alignment": "Each trajectory aligned at the same first common timestamp; SE(2) drift, not global ATE",
+  "interpolation_max_gap_s": 0.2,
+  "origins": {
+    "wheel": [
+      -1.6456622658542265e-15,
+      1.9301389965753027e-24,
+      4.039547138701887e-13
+    ],
+    "ekf": [
+      3.166935697865264e-16,
+      6.049243124325269e-18,
+      -0.0001443816638459265
+    ],
+    "truth": [
+      -0.0011073395653337494,
+      -1.5519399965973209e-10,
+      8.169254559560446e-08
+    ]
+  },
+  "wheel": {
+    "position_rmse_m": 0.011268805323589131,
+    "yaw_rmse_rad": 4.182635936942122e-08,
+    "final_position_error_m": 0.0037272184078168294,
+    "final_yaw_error_rad": -1.3576451979302462e-07
+  },
+  "ekf": {
+    "position_rmse_m": 0.013231414786264457,
+    "yaw_rmse_rad": 0.003341062298953807,
+    "final_position_error_m": 0.0027343442181972624,
+    "final_yaw_error_rad": 0.010605844679544674
+  },
+  "ekf_topic": "/odometry/filtered",
+  "runtime": {
+    "revision": "lab2-2026.6",
+    "odometry_source": "wheel"
+  },
+  "complete": true,
+  "wall_elapsed_s": 61.39229960099965,
+  "recording_note": null,
+  "raw_samples": {
+    "wheel": 1505,
+    "ekf": 905,
+    "truth": 1512
+  }
+}

@@ -13,7 +13,7 @@
       "success": true,
       "error_code": 0,
       "reason": "",
-      "duration_s": 60.56685254100012,
+      "duration_s": 48.47993414800021,
       "recoveries": 0
     },
     {
@@ -27,7 +27,7 @@
       "success": true,
       "error_code": 0,
       "reason": "",
-      "duration_s": 67.73473979000119,
+      "duration_s": 62.04430903699995,
       "recoveries": 0
     },
     {
@@ -41,7 +41,7 @@
       "success": true,
       "error_code": 0,
       "reason": "",
-      "duration_s": 114.04370212499998,
+      "duration_s": 92.43139732999953,
       "recoveries": 0
     },
     {
@@ -55,7 +55,7 @@
       "success": true,
       "error_code": 0,
       "reason": "",
-      "duration_s": 128.04080726400025,
+      "duration_s": 106.82090057599999,
       "recoveries": 0
     }
   ],
@@ -64,6 +64,6 @@
     "terminal_status": null,
     "zero_published": true,
     "stopped": false,
-    "max_speed_after": 0.1578947368441182
+    "max_speed_after": 0.10140869571078516
   }
 }

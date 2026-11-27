@@ -1,0 +1,45 @@
+{
+  "paired_samples": 1500,
+  "sim_duration_s": 29.980000000000004,
+  "alignment": "Each trajectory aligned at the same first common timestamp; SE(2) drift, not global ATE",
+  "interpolation_max_gap_s": 0.2,
+  "origins": {
+    "wheel": [
+      0.7962693713233064,
+      -0.6277424092488395,
+      -2.158576465058377
+    ],
+    "ekf": [
+      0.8035782976077903,
+      -0.62735202674024,
+      -2.1566216464943277
+    ],
+    "truth": [
+      0.8031653437232381,
+      -0.6436021795661064,
+      -2.158576113641333
+    ]
+  },
+  "wheel": {
+    "position_rmse_m": 0.006332371639514486,
+    "yaw_rmse_rad": 2.4138141806097883e-08,
+    "final_position_error_m": 0.018733148194466746,
+    "final_yaw_error_rad": -6.911657468577914e-09
+  },
+  "ekf": {
+    "position_rmse_m": 0.009140467488685567,
+    "yaw_rmse_rad": 0.0024636343782843857,
+    "final_position_error_m": 0.01739912432401103,
+    "final_yaw_error_rad": -0.010880994588363889
+  },
+  "ekf_topic": "/odom",
+  "runtime": {},
+  "complete": true,
+  "wall_elapsed_s": 64.38668825100012,
+  "recording_note": null,
+  "raw_samples": {
+    "wheel": 1501,
+    "ekf": 910,
+    "truth": 1513
+  }
+}
